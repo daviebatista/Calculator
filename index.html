@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Calculadora Autômata</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736401_1280.png" type="image/x-icon">
+  <link rel="stylesheet" href="calculator.css">
+  <audio src="./sfx/Button-click-sound.mp3" id="audio"></audio>
+  <script src="./calculator.js" defer></script>
+</head>
+<body>
+  <main data-theme="dark">
+    <header class="flex align-center justify-between">
+      <button id="themeSwitcher">Switch Theme</button>
+      <h1>Calculadora Javascript</h1>
+    </header>
+    <input type="text" id="input">
+    <div id="keys">
+      <button id="clear">C</button>
+      <button class="charKey" data-value=" ( ">(</button>
+      <button class="charKey" data-value=" ) ">)</button>
+      <button class="charKey" data-value=" / ">/</button>
+      <button class="charKey numberKey" data-value="7">7</button>
+      <button class="charKey numberKey" data-value="8">8</button>
+      <button class="charKey numberKey" data-value="9">9</button>
+      <button class="charKey " data-value=" * ">*</button>
+      <button class="charKey numberKey" data-value="4">4</button>
+      <button class="charKey numberKey" data-value="5">5</button>
+      <button class="charKey numberKey" data-value="6">6</button>
+      <button class="charKey" data-value=" - ">-</button>
+      <button class="charKey numberKey" data-value="1">1</button>
+      <button class="charKey numberKey" data-value="2">2</button>
+      <button class="charKey numberKey" data-value="3">3</button>
+      <button class="charKey" data-value=" + ">+</button>
+      <button class="charKey numberKey" data-value="0">0</button>
+      <button class="charKey" data-value=".">.</button>
+      <button class="single"  data-value="r" id="raiz">r</button>
+      <button class="charKey" id="power" data-value="**">power</button>
+      <button class="charKey" data-value=" % ">mod</button>
+
+      <button id="equal">=</button>
+    </div>
+    <section class="flex align-center justify-between">
+      <button id="copyToClipboard">Clipboard</button>
+      <input type="text" id="result" disabled>
+    </section>
+    <div class="align-center">
+      <h1 class="text-center padding-short">Feita por davielachesis</h1>
+      <section class="links align-center text-center ">
+        <a href="https://github.com/davielachesis" target="_blank" class=" padding-short ">
+          <img src="./images/git.png" alt="Git Logo">
+        </a>
+        <a href="https://www.linkedin.com/in/davi-deosmar-batista-oliveira-miranda/" target="_blank" class=" padding-short ">
+          <img src="./images/lnkdn.png" alt="linkedin logo">
+        </a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
