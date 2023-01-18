@@ -10,9 +10,10 @@
 
 
 # Temas
-*Escuro:
+* Escuro:
 
 ![image](https://user-images.githubusercontent.com/91736880/213174517-d888b1b6-b705-410e-9b81-5a811aca8772.png)
  
- *Claro:
+ * Claro:
+ 
 ![image](https://user-images.githubusercontent.com/91736880/213174792-549ee351-9173-46bd-8a58-dc1b81660648.png)
