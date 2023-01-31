@@ -1,12 +1,18 @@
 # Calculator
 
-* Projeto de aplicação de DOMJS aos elementos da página HTML, com mudanças CSS, feito e modelado por Davi Deosmar.
+* Projeto de aplicação de DOMJS aos elementos da página HTML, com mudanças CSS e inserção de módulos, feito e modelado por Davi Batista.
 
 # Funções que foram adicionadas em modo extra às normais:
 
 > 'POWER' - Calcula a potenciação do número;
 
 > 'SQR' - Calcula a raiz quadrada do número;
+
+# MÓDULOS:
+
+Os arquivos estão organizados e embasados em módulos Javascript, para melhor manutenção e limpeza do código.
+![image](https://user-images.githubusercontent.com/91736880/215895930-c2e420b5-131d-4689-a72b-9b88dc2d4f3e.png)
+
 
 
 # Temas
